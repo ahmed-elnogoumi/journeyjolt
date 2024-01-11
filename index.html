@@ -48,6 +48,20 @@
       <h2>About Egypt</h2>
         <p>From the days of the phaorahs of the ancient past, to the rich culture today; Egypt has always been a prime destination for tourists and travelers.</p>
     </main>
+    <script>
+      let name = prompt("What is your name?");
+      document.write("<p>Hello, " + name + "!<p>");
+
+      let favCountry = prompt("What is your favorite country?");
+      document.write("<p>" + name + "'s favorite country: " + favCountry + ".<p>");
+
+      let y_or_n = prompt("Looking for great prices? y/n");
+      if(y_or_n === 'y') {
+        document.write("<p>Check out <a href='https://expedia.com' target='_blank'>Expedia</a> for great travel deals!</p>");
+      } else {
+        document.write('OK, maybe next time. :)');
+      }
+    </script>
     <footer>&copy; JourneyJolt 2024</footer>
   </body>
 </html>
